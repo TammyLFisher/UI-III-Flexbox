@@ -363,3 +363,24 @@ h5{
 h5:hover{
 	text-decoration: underline;
 }
+@media screen and (max-width: 992px){
+	.flex-container nav a {
+		overflow: hidden;
+		background-color: blue;
+	}
+	.flex-container nav a {
+		float: left;
+		display: block;
+		color: lightgray;
+		text-align: center;
+		padding: 12px 14px;
+		text-decoration: none;
+	}
+}
+@media screen and (max-width: 600px) {
+	.flex-container nav a {
+		float: none;
+		width: 100%;
+	}
+}
+
