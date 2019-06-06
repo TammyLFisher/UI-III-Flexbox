@@ -318,3 +318,69 @@ h4{
 	line-height: 2;
 	align-content: center;
 }
+.product-image{
+	height: 100px;
+	width: 100px;
+}
+.product-image:hover{
+	transition: transform .2s;
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	transform: scale(1.5);
+}
+
+.product-info{
+ display: flex;
+ flex-direction: row;
+}
+.product-paragraphs{
+	display: inline-box;
+	align-items: center;
+	border: 1px solid transparent;
+	background: white;
+	margin: 20px;
+	padding: 30px;
+	height: 350px;
+	width: 450px;
+}
+.product-paragraphs button{
+	vertical-align: center;
+	font-size: 12px;
+	padding: 6px 28px;
+	background: white;
+	border: 1px black solid;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.product-paragraphs button:hover {
+	background: green;
+	color: white;
+}
+h5{
+	cursor: pointer	
+}
+h5:hover{
+	text-decoration: underline;
+}
+@media screen and (max-width: 992px){
+	.flex-container nav a {
+		overflow: hidden;
+		background-color: blue;
+	}
+	.flex-container nav a {
+		float: left;
+		display: block;
+		color: lightgray;
+		text-align: center;
+		padding: 12px 14px;
+		text-decoration: none;
+	}
+}
+@media screen and (max-width: 600px) {
+	.flex-container nav a {
+		float: none;
+		width: 100%;
+	}
+}
+
