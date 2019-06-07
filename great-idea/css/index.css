@@ -203,8 +203,9 @@ h1, h2, h3, h4, h5 {
 
 }
 .p{
-	display: inline-block;
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
 	border: 1p transparent solid;
 	width: 400px;
 	margin-right: 55px;
@@ -261,7 +262,8 @@ h4{
 	font-size: 24px;
 }
 .intro{
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 	text-align: left;
 	border-bottom: 1px solid black;
 	margin: 10px;
@@ -274,8 +276,9 @@ h4{
 	vertical-align: center;
 }
 .paragraphs{
-	display: inline-box;
-	align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
 	border: 1px solid black;
 	background: #ebe9e7;
 	margin: 20px;
@@ -285,7 +288,8 @@ h4{
 }
 .paragraphs button{
 	vertical-align: center;
-	font-size: 12px;
+	height: 26px;
+	width: 130px;
 	padding: 6px 28px;
 	background: white;
 	border: 1px black solid;
@@ -335,7 +339,8 @@ h4{
  flex-direction: row;
 }
 .product-paragraphs{
-	display: inline-box;
+	display: flex;
+	flex-direction: column;
 	align-items: center;
 	border: 1px solid transparent;
 	background: white;
